@@ -67,7 +67,7 @@ const Header = () => {
                   </h3>
                 </div>
                 <div className="carousel-item">
-                  <h2>Spaceseal Online Shop</h2>
+                  <h2>SPACESEAL ONLINE SHOP</h2>
                 </div>
               </div>
             </div>
