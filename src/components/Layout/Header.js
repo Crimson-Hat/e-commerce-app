@@ -9,7 +9,6 @@ import {
   Navbar,
 } from "react-bootstrap";
 import { FaShoppingCart, FaUserCircle } from "react-icons/fa";
-import { GiShoppingCart } from "react-icons/gi";
 import { BsWhatsapp } from "react-icons/bs";
 import { Link} from "react-router-dom";
 import classes from "./header.module.css";
