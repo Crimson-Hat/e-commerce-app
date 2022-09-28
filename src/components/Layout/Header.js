@@ -298,9 +298,9 @@ const Header = () => {
             <FormControl
              
               className="m-auto"
-              placeholder="search products, brands, categories"
+              placeholder="search products"
               style={{
-                width: 300,
+                width: 100,
               }}
             ></FormControl>
             <Button  className="m-2" variant="warning" color="#fff">
