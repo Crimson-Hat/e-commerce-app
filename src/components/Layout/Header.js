@@ -98,21 +98,6 @@ const Header = () => {
        
       <Navbar color="#000" className={classes.nav}>
         <Container>
-         <div className={classes.search}>
-         <Navbar.Text className="d-flex p-5 m-auto">
-            <FormControl
-             
-              className="m-auto"
-              placeholder="search"
-              style={{
-                width: 100,
-              }}
-            ></FormControl>
-            <Button  className="m-2" variant="warning" color="#fff">
-              Search
-            </Button>
-          </Navbar.Text>
-         </div>
           <Nav>
             {userInfo ? (
               <>
@@ -125,7 +110,7 @@ const Header = () => {
                     <FaUserCircle
                       style={{
                         color: "#fff",
-                        fontSize: "30px",
+                        fontSize: "20px",
                       }}
                     />{" "}
                      <span className={classes.username} >Hi, {userInfo.username}</span>
@@ -173,7 +158,7 @@ const Header = () => {
                       >
                         <FcApproval
                           style={{
-                            fontSize: "30px",
+                            fontSize: "20px",
                             margin: "10px",
                           }}
                         />{" "}
@@ -216,7 +201,7 @@ const Header = () => {
                   <FaUserCircle
                     style={{
                       color: "#fff",
-                      fontSize: "30px",
+                      fontSize: "20px",
                     }}
                   />
                   <DropdownMenu>
@@ -307,7 +292,22 @@ const Header = () => {
                 )}
               </Dropdown.Menu>
             </Dropdown>
-          </Nav>     
+          </Nav> 
+         <div className={classes.search}>
+         <Navbar.Text className="d-flex p-5 m-auto">
+            <FormControl
+             
+              className="m-auto"
+              placeholder="search"
+              style={{
+                width: 100,
+              }}
+            ></FormControl>
+            <Button  className="m-2" variant="warning" color="#fff">
+              Search
+            </Button>
+          </Navbar.Text>
+         </div>
         </Container>
       </Navbar>
     </>
