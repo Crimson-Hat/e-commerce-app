@@ -48,7 +48,7 @@
 }
 
 .mobile{
-    display: none;
+    display: flex;
 }
 
 /* Table Media Queries */
@@ -76,11 +76,11 @@
 
 @media(max-width: 480px){
     .search{
-        display: none;
+        display: flex;
     }
   
    .top{
-       display: none;
+       display: flex;
    }
 
     .items{
@@ -88,13 +88,13 @@
   
     }
     .mobile{
-        display: block;
+        display: flex;
         height: 80px;
         padding: 2px;
         background: #DE4D40 !important;
     }
     .username{
-        display:none;
+        display:flex;
     }
 
 }
