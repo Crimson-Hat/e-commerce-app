@@ -68,7 +68,7 @@ const Header = () => {
                   </h3>
                 </div>
                 <div className="carousel-item">
-                  <h2>0.5% Delivery Fee</h2>
+                  <h2>Spaceseal Online Shop</h2>
                 </div>
               </div>
             </div>
@@ -110,7 +110,8 @@ const Header = () => {
               }}
               to="/"
             >
-              SPACESEAL LIMITED.{" "}
+                SpaceSeal
+
               <GiShoppingCart
                 style={{
                   fontSize: "30px",
@@ -127,8 +128,7 @@ const Header = () => {
               className="m-auto"
               placeholder="search products, brands, categories"
               style={{
-                width: 300,
-                
+                width: fit-content,
               }}
             ></FormControl>
             <Button  className="m-2" variant="warning" color="#fff">
