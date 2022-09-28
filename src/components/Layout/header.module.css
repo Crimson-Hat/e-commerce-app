@@ -87,7 +87,10 @@
 
     .items{
         padding-left: 100px;
-  
+    }
+    .nav{
+        display: flex;
+        width: fit-content;
     }
     .mobile{
         display: block;
