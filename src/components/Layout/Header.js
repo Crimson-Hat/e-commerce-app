@@ -4,7 +4,6 @@ import {
   Button,
   Container,
   Dropdown,
-  FormControl,
   Nav,
   Navbar,
 } from "react-bootstrap";
@@ -95,21 +94,7 @@ const Header = () => {
           </Container>
         </Navbar>
       </div>
-       <div className={classes.search}>
-         <Navbar.Text className="d-flex p-5 m-auto">
-            <FormControl
-             
-              className="m-auto"
-              placeholder="search products, brands, categories"
-              style={{
-                width: 300,
-              }}
-            ></FormControl>
-            <Button  className="m-2" variant="warning" color="#fff">
-              Search
-            </Button>
-          </Navbar.Text>
-         </div>
+       
       <Navbar color="#000" className={classes.nav}>
         <Container>
           <Nav>
